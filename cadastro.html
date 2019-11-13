@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CADASTRO</title>
+    <style>
+        .logo {
+            width: 35px;
+            height: 35px;
+        }
+
+        .tamanho {
+            width: 300px;
+            height: 300px;
+        }
+
+        .fundo {
+            width: 100%;
+            height: 100%;
+        }
+
+        .margem {
+            margin-left: 170px;
+
+        }
+
+        .cornav {
+            color: black;
+        }
+    </style>
+    <link rel="stylesheet" href="C:\Users\aos_1\Desktop\SiteBootstrap\node_modules\bootstrap/dist/css/bootstrap.css">
+</head>
+<nav class="navbar navbar-expand-lg navbar-success bg-success">
+    <a class="navbar-brand" href="file:///C:/Users/aos_1/Desktop/SiteBootstrap/index.html#"><img class="logo"
+            src="C:\Users\aos_1\Desktop\SiteBootstrap\imagens\logo.png"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class=" cornav nav-link"
+                    href="file:///C:/Users/aos_1/Desktop/SiteBootstrap/apresentacao.html">APRESENTAÇÃO <span
+                        class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class=" cornav nav-link" href="file:///C:/Users/aos_1/Desktop/SiteBootstrap/QuemSomos.html">QUEM
+                    SOMOS</a>
+            </li>
+            <li class="nav-item">
+                <a class=" cornav nav-link" href="file:///C:/Users/aos_1/Desktop/SiteBootstrap/produtos.html">PRODUTOS</a>
+            </li>
+            <li class="nav-item">
+                <a class=" cornav nav-link" href="file:///C:/Users/aos_1/Desktop/SiteBootstrap/cadastro.html">CADASTAR-SE</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <a class="cornav nav-link" href="#">OLÁ ALEXANDRE, SEJA BEM VINDO!</a>
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Sair</button>
+        </form>
+    </div>
+</nav>
+
+<body>
+    <div class="col-lg-12 text-center">
+        <h1 class="display-4">Cadastre-se</h1>
+        <form action="" method="POST">
+            <div class="form-row">
+                <div class="col-lg-9 mt-5 mx-auto">
+                    <input class="form-control form-control-sm" type="text" placeholder="Digite seu nome" name="nome">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-lg-9 my-3 mx-auto">
+                    <input class="form-control form-control-sm" type="text" placeholder="Digite seu email" name="email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-lg-9 my-3 mx-auto">
+                    <input class="form-control form-control-sm" type="text"
+                        placeholder="Digite seu endereço(rua, avenida,etc..)" name="endereço">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-lg-5 my-1 ml-auto">
+                    <input class="form-control form-control-sm" type="text" placeholder="Digite seu bairro"
+                        name="bairro">
+                </div>
+                <div class="form-group col-lg-4 my-1 mr-auto">
+                    <input class="form-control form-control-sm" type="text" placeholder="Digite sua cidade"
+                        name="cidade">
+                </div>
+            </div>
+            <div class="form-row">
+                    <div class="form-group col-lg-2 my-1 ml-auto">
+                        <input class="form-control form-control-sm" type="number" placeholder="DDD" name="ddd">
+                    </div>
+                    <div class="form-group col-lg-7 my-1 mr-auto">
+                        <input class="form-control form-control-sm" type="number" placeholder="Seu telefone" name="telefone">
+                    </div>
+                </div>
+            <div class="form-row">
+                <div class="form-group col-lg-4 my-1 ml-auto">
+                    <input class="form-control form-control-sm" type="number" placeholder="Digite seu CPF"
+                        name="CPF">
+                </div>
+                <div class="form-group col-lg-3 my-1 mc-auto">
+                    <input class="form-control form-control-sm" type="number" placeholder="Digite sua RG"
+                        name="RG">
+                </div>
+                <div class="form-group col-lg-2 my-1 mr-auto">
+                        <legend>Escolha um opção</legend>
+                        <input type="radio" name="genero" value="Masculino">Masculino<br>
+                        <input type="radio" name="genero" value="Feminino">Feminino<br>
+                        <input type="radio" name="genero" value="Outros">Outros<br>
+                </div>
+            </div>
+           
+            <div class="form-row">
+                <div class="my-5 mx-auto col-lg-6">
+                    <input class="form-control form-control-lg btn-lg btn btn-success" type="submit" value="Entrar"
+                        name="login">
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
